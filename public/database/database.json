@@ -1,0 +1,63 @@
+{
+  "user": [
+    {
+      "id": "98a0",
+      "first_name": "Santiago",
+      "last_name": "Castro Giraldo",
+      "user_name": "sanDaws",
+      "user_type": "user",
+      "email": "sacastro@unal.com",
+      "password": "sesamo"
+    },
+    {
+      "id": "c699",
+      "first_name": "santiago",
+      "last_name": "c giraldo",
+      "user_name": "devDaws",
+      "user_type": "admin",
+      "email": "castro@email.com",
+      "password": "Abrete"
+    },
+    {
+      "id": "ee97",
+      "first_name": "andres",
+      "last_name": "morales",
+      "user_name": "amorales",
+      "user_type": "admin",
+      "email": "amorales@constru.com",
+      "password": "Amaranto"
+    },
+    {
+      "id": "426a",
+      "first_name": "camilo",
+      "last_name": "alpollo",
+      "user_name": "calpollo",
+      "user_type": "user",
+      "email": "calpollo@contru.pro",
+      "password": "pollito"
+    }
+  ],
+  "tools": [
+    {
+      "id": "ba11",
+      "product_name": "destornillador",
+      "img": "https://www.ferreteriasuprema.com/cdn/shop/products/Destornilladorplanocontopetraseroparagolpear_1200x1200.jpg?v=1609951438",
+      "table": "tools",
+      "unitary_price": "5000",
+      "storage_unit": "20",
+      "description": "punta plana"
+    }
+  ],
+  "equipment": [],
+  "material": [
+    {
+      "id": "88b6",
+      "product_name": "tubo pvc 1x5'",
+      "img": "https://electroservimos.co/2638-large_default/tpl1-tubo-pvc-verde-1-x-3m-plastimec.jpg",
+      "table": "material",
+      "unitary_price": "2000",
+      "storage_unit": "200",
+      "description": "tubo pbc"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+<!-- 
+Full Name: Snatiago Castro Giraldo
+Clan: Dell
+Date: 06-04-24
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="..." />
+    <meta name="keywords" content="riwi, JavaScript">
+    <meta name="sitedomain" content="https://riwi.io">
+    <meta name="organization" content="">
+    <meta name="author" content="...">
+    <meta name="designer" content="...">
+    <meta name="copyright" content="© 2024 Riwi. All rights reserved">
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="15days">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/4327/4327428.png" type="image/x-icon">
+    
+    <title>Index</title>
+</head>
+
+<body>
+    <header>
+        <nav class=" navbar navbar-expand-lg bg-light position-sticky top-0 z-1">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./">ConstruPro</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./src/pages/dashboard.html">Dashboard</a>
+                        </li>
+                    </ul>
+                    <div id="user-log" class=" text-center">
+                        <a href="./src/pages/auth/login.html"><button type="button" class="btn btn-warning">Login</button></a>
+                        <a href="./src/pages/auth/register.html"><button type="button" class="btn btn-secondary">Register</button></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="d-flex justify-content-center gap-5 my-3 flex-wrap">
+        <div class="card text-light col-2 card-custom">
+            <img src="https://blogthinkbig.com/wp-content/uploads/sites/4/2019/02/caterpillar.jpg?fit=1921%2C1075"
+                class="card-img h-100 object-fit-cover" alt="example">
+            <div class="card-body bg-light text-dark">
+                <h5 class="card-title">Maquinarias</h5>
+                <button type="button" item-filter="equipment" class="btn btn-link">Ver todas</button>
+            </div>
+        </div>
+
+        <div class="card text-light col-2 card-custom">
+            <img src="https://dovicenter.co/wp-content/uploads/2023/02/taladro-inalambrico-24-voltios-percutor-tipo-dewalt-1.webp"
+                class="card-img h-100 object-fit-cover" alt="example">
+            <div class="card-body bg-light text-dark">
+                <h5 class="card-title">Herramientas</h5>
+                <button type="button" item-filter="tools" class="btn btn-link">Ver todas</button>
+            </div>
+        </div>
+
+        <div class="card text-light col-2 card-custom">
+            <img src="https://upick-co.s3.amazonaws.com/uploads/product/photo/42053/D_NQ_NP_723168-MLV29014061348_122018-O.jpg"
+                class="card-img h-100 object-fit-cover" alt="example">
+            <div class="card-body bg-light text-dark">
+                <h5 class="card-title">Materiales</h5>
+                <button type="button" item-filter="material" class="btn btn-link">Ver todas</button>
+            </div>
+        </div>
+
+    </main>
+
+    <footer></footer>
+<!-- script modules -->
+    <script type="module" src="./src/js/home.js"></script>
+    <script type="module" src="./src/js/warden.js"></script>
+    <script type="module" src="./src/js/main.js"></script>
+</body>
+
+</html>
